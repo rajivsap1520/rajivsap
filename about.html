@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="About BizManager - Learn about our mission to help small and medium businesses in India manage their operations efficiently.">
+    <meta name="keywords" content="about bizmanager, business management company, Indian business app">
+    <title>About Us - BizManager</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- ============================
+       STICKY TRANSPARENT HEADER
+       ============================ -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="index.html" class="header-logo">
+                <div class="header-logo-icon">
+                    <i data-lucide="bar-chart-3" style="width: 24px; height: 24px;"></i>
+                </div>
+                <span>BizManager</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Home</a></li>
+                    <li><a href="about.html" class="header-nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="header-nav-link">Contact</a></li>
+                    <li><a href="terms.html" class="header-nav-link">Terms</a></li>
+                    <li><a href="privacy.html" class="header-nav-link">Privacy</a></li>
+                </ul>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <div class="header-cta">
+                <a href="#download" class="btn btn-primary btn-sm">
+                    <i data-lucide="download" class="icon-sm"></i>
+                    Download App
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" aria-hidden="true">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+            <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            <li><a href="terms.html" class="mobile-nav-link">Terms & Conditions</a></li>
+            <li><a href="privacy.html" class="mobile-nav-link">Privacy Policy</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="#download" class="btn btn-primary btn-lg">
+                <i data-lucide="download" class="icon"></i>
+                Download App
+            </a>
+        </div>
+    </nav>
+
+    <!-- ============================
+       HERO / POSTER SECTION
+       ============================ -->
+    <section class="hero-page">
+        <div class="container">
+            <div class="hero-page-content">
+                <i data-lucide="building-2" class="hero-page-icon"></i>
+                <h1>About Our Company</h1>
+                <p>
+                    Built for small & medium businesses in India. We're on a mission to make business management simple,
+                    accessible, and affordable for everyone.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       ABOUT CONTENT
+       ============================ -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Story</span>
+                <h2 class="section-title">Empowering Small Businesses Across India</h2>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <p
+                    style="font-size: var(--font-size-lg); color: var(--color-text-secondary); line-height: var(--line-height-relaxed); margin-bottom: var(--space-8); text-align: center;">
+                    BizManager was born from a simple observation: small business owners in India spend countless hours
+                    managing paper registers, struggling with calculations, and losing track of important business data.
+                </p>
+
+                <p
+                    style="font-size: var(--font-size-base); color: var(--color-text-secondary); line-height: var(--line-height-relaxed); margin-bottom: var(--space-6);">
+                    We recognized that traditional business management tools were either too complex, too expensive, or
+                    required constant internet connectivity—none of which worked well for Indian small businesses.
+                </p>
+
+                <p
+                    style="font-size: var(--font-size-base); color: var(--color-text-secondary); line-height: var(--line-height-relaxed); margin-bottom: var(--space-6);">
+                    That's why we created BizManager—an offline-first, easy-to-use mobile app that brings professional
+                    business management capabilities to every kirana store, mobile shop, hardware store, and small
+                    business owner across India.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       MISSION & VISION
+       ============================ -->
+    <section class="section" style="background: var(--color-bg-secondary);">
+        <div class="container">
+            <div class="grid grid-cols-1" style="gap: var(--space-12);">
+
+                <!-- Mission -->
+                <div class="slide-up" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <div
+                        style="width: 80px; height: 80px; margin: 0 auto var(--space-6); background: linear-gradient(135deg, var(--color-primary), var(--color-accent)); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                        <i data-lucide="target" style="width: 40px; height: 40px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-4);">Our Mission</h3>
+                    <p
+                        style="font-size: var(--font-size-lg); color: var(--color-text-secondary); line-height: var(--line-height-relaxed);">
+                        To empower every small and medium business in India with professional, affordable, and
+                        easy-to-use tools that help them grow, compete, and succeed in the digital age—without needing
+                        constant internet connectivity or technical expertise.
+                    </p>
+                </div>
+
+                <!-- Vision -->
+                <div class="slide-up" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <div
+                        style="width: 80px; height: 80px; margin: 0 auto var(--space-6); background: linear-gradient(135deg, var(--color-accent), var(--color-primary)); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                        <i data-lucide="eye" style="width: 40px; height: 40px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-4);">Our Vision</h3>
+                    <p
+                        style="font-size: var(--font-size-lg); color: var(--color-text-secondary); line-height: var(--line-height-relaxed);">
+                        To become India's most trusted business management platform for small businesses, helping
+                        millions of entrepreneurs save time, reduce errors, and make data-driven decisions that
+                        accelerate their business growth.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       WHY CHOOSE US
+       ============================ -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Why Choose Us</span>
+                <h2 class="section-title">What Makes BizManager Different</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="wifi-off"></i>
+                    </div>
+                    <h3>Offline-First Design</h3>
+                    <p>Works perfectly without internet. Your business doesn't stop when connectivity is poor.</p>
+                </div>
+
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <h3>Made for India</h3>
+                    <p>Designed specifically for Indian businesses, with features like udhaar tracking and GST support.
+                    </p>
+                </div>
+
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>Simple & Fast</h3>
+                    <p>No learning curve. Start managing your business in minutes, not hours.</p>
+                </div>
+
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="shield"></i>
+                    </div>
+                    <h3>Privacy Focused</h3>
+                    <p>Your data stays on your device. We never access, share, or sell your business information.</p>
+                </div>
+
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="indian-rupee"></i>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Professional features at prices small businesses can afford. No hidden costs.</p>
+                </div>
+
+                <div class="card feature-card slide-up">
+                    <div class="feature-card-icon">
+                        <i data-lucide="headphones"></i>
+                    </div>
+                    <h3>Local Support</h3>
+                    <p>Customer support in your language, when you need it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       CALL TO ACTION
+       ============================ -->
+    <section class="final-cta section">
+        <div class="container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p class="section-description" style="color: rgba(255, 255, 255, 0.95); margin-bottom: var(--space-8);">
+                Join thousands of businesses already using BizManager
+            </p>
+            <div class="final-cta-buttons">
+                <a href="index.html#download" class="btn btn-primary btn-lg"
+                    style="background: white; color: var(--color-primary); border-color: white;">
+                    <i data-lucide="download" class="icon"></i>
+                    Download Now
+                </a>
+                <a href="contact.html" class="btn btn-secondary btn-lg"
+                    style="background: transparent; color: white; border-color: white;">
+                    <i data-lucide="phone" class="icon"></i>
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       FOOTER
+       ============================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>BizManager</h3>
+                    <p>
+                        Smart business management app designed for Indian small and medium businesses.
+                        Manage your business effortlessly - offline and secure.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Pages</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <div class="footer-links">
+                        <a href="terms.html">Terms & Conditions</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:support@bizmanager.com">support@bizmanager.com</a>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                        <a href="https://wa.me/919876543210">WhatsApp Support</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BizManager. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================
+       SCRIPTS
+       ============================ -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+    <script src="js/header.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

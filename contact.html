@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact BizManager - Get in touch with us for support, demo requests, or any questions about our business management app.">
+    <meta name="keywords" content="contact bizmanager, business app support, demo request">
+    <title>Contact Us - BizManager</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- ============================
+       STICKY TRANSPARENT HEADER
+       ============================ -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="index.html" class="header-logo">
+                <div class="header-logo-icon">
+                    <i data-lucide="bar-chart-3" style="width: 24px; height: 24px;"></i>
+                </div>
+                <span>BizManager</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Home</a></li>
+                    <li><a href="about.html" class="header-nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="header-nav-link">Contact</a></li>
+                    <li><a href="terms.html" class="header-nav-link">Terms</a></li>
+                    <li><a href="privacy.html" class="header-nav-link">Privacy</a></li>
+                </ul>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <div class="header-cta">
+                <a href="#download" class="btn btn-primary btn-sm">
+                    <i data-lucide="download" class="icon-sm"></i>
+                    Download App
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" aria-hidden="true">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+            <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            <li><a href="terms.html" class="mobile-nav-link">Terms & Conditions</a></li>
+            <li><a href="privacy.html" class="mobile-nav-link">Privacy Policy</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="#download" class="btn btn-primary btn-lg">
+                <i data-lucide="download" class="icon"></i>
+                Download App
+            </a>
+        </div>
+    </nav>
+
+    <!-- ============================
+       HERO / POSTER SECTION
+       ============================ -->
+    <section class="hero-page">
+        <div class="container">
+            <div class="hero-page-content">
+                <i data-lucide="mail" class="hero-page-icon"></i>
+                <h1>Get in Touch</h1>
+                <p>
+                    We're here to help your business grow. Have questions, need support, or want to request a demo?
+                    Reach out to us!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       CONTACT FORM SECTION
+       ============================ -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+
+                <div class="section-header">
+                    <span class="section-subtitle">Send Us a Message</span>
+                    <h2 class="section-title">We'd Love to Hear From You</h2>
+                </div>
+
+                <form class="contact-form" data-validate>
+                    <div class="form-group">
+                        <label for="name" class="form-label required">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label required">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" required
+                            placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="business" class="form-label">Business Type</label>
+                        <input type="text" id="business" name="business" class="form-input"
+                            placeholder="e.g., Kirana Store, Mobile Shop">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label required">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" required
+                            placeholder="Tell us how we can help you..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg form-submit">
+                        <i data-lucide="send" class="icon"></i>
+                        Send Message
+                    </button>
+                </form>
+
+                <!-- Contact Info Cards -->
+                <div class="contact-info-grid">
+
+                    <div class="contact-info-card slide-up">
+                        <div class="contact-info-icon">
+                            <i data-lucide="mail" style="width: 24px; height: 24px;"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>Email Us</h3>
+                            <p><a href="mailto:support@bizmanager.com">support@bizmanager.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card slide-up">
+                        <div class="contact-info-icon">
+                            <i data-lucide="phone" style="width: 24px; height: 24px;"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>Call Us</h3>
+                            <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card slide-up">
+                        <div class="contact-info-icon">
+                            <i data-lucide="message-circle" style="width: 24px; height: 24px;"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/919876543210" target="_blank">Chat with us on WhatsApp</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       BUSINESS HOURS
+       ============================ -->
+    <section class="section" style="background: var(--color-bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Availability</span>
+                <h2 class="section-title">Business Hours</h2>
+            </div>
+
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <div
+                    style="background: white; padding: var(--space-8); border-radius: var(--radius-xl); box-shadow: var(--shadow-md);">
+                    <div style="margin-bottom: var(--space-4);">
+                        <p
+                            style="font-size: var(--font-size-base); color: var(--color-text-secondary); margin: var(--space-2) 0;">
+                            <strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM IST
+                        </p>
+                        <p
+                            style="font-size: var(--font-size-base); color: var(--color-text-secondary); margin: var(--space-2) 0;">
+                            <strong>Saturday:</strong> 10:00 AM - 4:00 PM IST
+                        </p>
+                        <p
+                            style="font-size: var(--font-size-base); color: var(--color-text-secondary); margin: var(--space-2) 0;">
+                            <strong>Sunday:</strong> Closed
+                        </p>
+                    </div>
+                    <p
+                        style="font-size: var(--font-size-sm); color: var(--color-text-light); margin-top: var(--space-4);">
+                        For urgent support outside business hours, please use WhatsApp
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+       FOOTER
+       ============================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>BizManager</h3>
+                    <p>
+                        Smart business management app designed for Indian small and medium businesses.
+                        Manage your business effortlessly - offline and secure.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Pages</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <div class="footer-links">
+                        <a href="terms.html">Terms & Conditions</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:support@bizmanager.com">support@bizmanager.com</a>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                        <a href="https://wa.me/919876543210">WhatsApp Support</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BizManager. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================
+       SCRIPTS
+       ============================ -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+    <script src="js/header.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
