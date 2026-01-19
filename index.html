@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BizManager - Smart Business Management App for Small and Medium Businesses. Manage invoices, inventory, customers, and track reports offline.">
+  <meta name="keywords"
+    content="business management, invoice app, inventory management, offline business app, Indian business app">
+  <meta name="author" content="BizManager">
+
+  <!-- SEO Meta Tags -->
+  <meta property="og:title" content="BizManager - Business Management Made Simple">
+  <meta property="og:description"
+    content="Smart offline business management app for Indian businesses. Manage invoices, inventory, customers, and reports easily.">
+  <meta property="og:type" content="website">
+
+  <title>BizManager - Smart Business Management App for Indian Businesses</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- ============================
+       STICKY TRANSPARENT HEADER
+       ============================ -->
+  <header class="header">
+    <div class="header-container">
+      <!-- Logo -->
+      <a href="index.html" class="header-logo">
+        <div class="header-logo-icon">
+          <i data-lucide="bar-chart-3" style="width: 24px; height: 24px;"></i>
+        </div>
+        <span>BizManager</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="index.html" class="header-nav-link">Home</a></li>
+          <li><a href="about.html" class="header-nav-link">About Us</a></li>
+          <li><a href="contact.html" class="header-nav-link">Contact</a></li>
+          <li><a href="terms.html" class="header-nav-link">Terms</a></li>
+          <li><a href="privacy.html" class="header-nav-link">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="header-cta">
+        <a href="#download" class="btn btn-primary btn-sm">
+          <i data-lucide="download" class="icon-sm"></i>
+          Download App
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <nav class="mobile-nav" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      <li><a href="terms.html" class="mobile-nav-link">Terms & Conditions</a></li>
+      <li><a href="privacy.html" class="mobile-nav-link">Privacy Policy</a></li>
+    </ul>
+    <div class="mobile-nav-cta">
+      <a href="#download" class="btn btn-primary btn-lg">
+        <i data-lucide="download" class="icon"></i>
+        Download App
+      </a>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO / POSTER SECTION
+       ============================ -->
+  <section class="hero-page">
+    <div class="container">
+      <div class="hero-page-content">
+        <i data-lucide="trending-up" class="hero-page-icon"></i>
+        <h1>Business Management Made <span style="display: block; margin-top: 0.5rem;">Simple & Smart</span></h1>
+        <p>
+          Invoicing, inventory management, customer tracking, and detailed reports — all in one powerful offline-first
+          mobile app designed for Indian businesses.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="#download" class="btn btn-lg"
+            style="background: white; color: var(--color-primary); border-color: white;">
+            <i data-lucide="download" class="icon"></i>
+            Download App
+          </a>
+          <a href="contact.html" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">
+            <i data-lucide="phone" class="icon"></i>
+            Request Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TRUST BADGES SECTION
+       ============================ -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-badge slide-up">
+          <i data-lucide="wifi-off" class="trust-badge-icon"></i>
+          <p class="trust-badge-text">Offline First App</p>
+        </div>
+        <div class="trust-badge slide-up">
+          <i data-lucide="shield-check" class="trust-badge-icon"></i>
+          <p class="trust-badge-text">Secure Local Data</p>
+        </div>
+        <div class="trust-badge slide-up">
+          <i data-lucide="zap-off" class="trust-badge-icon"></i>
+          <p class="trust-badge-text">No Internet Required</p>
+        </div>
+        <div class="trust-badge slide-up">
+          <i data-lucide="map-pin" class="trust-badge-icon"></i>
+          <p class="trust-badge-text">Made for Indian Businesses</p>
+        </div>
+        <div class="trust-badge slide-up">
+          <i data-lucide="smile" class="trust-badge-icon"></i>
+          <p class="trust-badge-text">Easy to Use</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROBLEM → SOLUTION SECTION
+       ============================ -->
+  <section class="problem-solution section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Why BizManager?</span>
+        <h2 class="section-title">Say Goodbye to Business Problems</h2>
+      </div>
+
+      <div class="ps-grid">
+        <!-- Problems Column -->
+        <div class="ps-column slide-up">
+          <h3>
+            <i data-lucide="x-circle" style="color: #EF4444;"></i>
+            Common Problems
+          </h3>
+          <div class="ps-list">
+            <div class="ps-item">
+              <i data-lucide="x" class="ps-item-icon problem-icon"></i>
+              <p class="ps-item-text">Messy paper registers and lost records</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="x" class="ps-item-icon problem-icon"></i>
+              <p class="ps-item-text">Calculator mistakes in billing</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="x" class="ps-item-icon problem-icon"></i>
+              <p class="ps-item-text">Forgetting customer udhaar (credit)</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="x" class="ps-item-icon problem-icon"></i>
+              <p class="ps-item-text">No visibility of stock levels</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="x" class="ps-item-icon problem-icon"></i>
+              <p class="ps-item-text">Difficult to track daily sales</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solutions Column -->
+        <div class="ps-column slide-up">
+          <h3>
+            <i data-lucide="check-circle" style="color: #10B981;"></i>
+            Our Solutions
+          </h3>
+          <div class="ps-list">
+            <div class="ps-item">
+              <i data-lucide="check" class="ps-item-icon solution-icon"></i>
+              <p class="ps-item-text">Smart digital invoices with auto-save</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="check" class="ps-item-icon solution-icon"></i>
+              <p class="ps-item-text">Automatic calculations, zero errors</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="check" class="ps-item-icon solution-icon"></i>
+              <p class="ps-item-text">Track all customer credits easily</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="check" class="ps-item-icon solution-icon"></i>
+              <p class="ps-item-text">Real-time stock updates & alerts</p>
+            </div>
+            <div class="ps-item">
+              <i data-lucide="check" class="ps-item-icon solution-icon"></i>
+              <p class="ps-item-text">Live reports and analytics dashboard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CORE FEATURES SECTION
+       ============================ -->
+  <section class="features-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Features</span>
+        <h2 class="section-title">Everything You Need to Run Your Business</h2>
+        <p class="section-description">
+          Powerful features designed specifically for Indian small businesses
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="layout-dashboard"></i>
+          </div>
+          <h3>Smart Dashboard</h3>
+          <p>View all your business metrics at a glance. Sales, inventory, and revenue - everything in one place.</p>
+        </div>
+
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="file-text"></i>
+          </div>
+          <h3>Invoice & Billing</h3>
+          <p>Create professional invoices instantly. Print or share via WhatsApp with automatic calculations.</p>
+        </div>
+
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <h3>Customer Management</h3>
+          <p>Store customer details, track purchases, and manage credit (udhaar) effortlessly.</p>
+        </div>
+
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="package"></i>
+          </div>
+          <h3>Inventory Control</h3>
+          <p>Track stock levels, get low-stock alerts, and manage products with ease.</p>
+        </div>
+
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="bar-chart-3"></i>
+          </div>
+          <h3>Reports & Analytics</h3>
+          <p>Detailed sales reports, profit analysis, and business insights to make better decisions.</p>
+        </div>
+
+        <div class="card feature-card slide-up">
+          <div class="feature-card-icon">
+            <i data-lucide="smartphone"></i>
+          </div>
+          <h3>Mobile Friendly</h3>
+          <p>Works perfectly on your smartphone. Manage business from anywhere, anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       HOW IT WORKS SECTION
+       ============================ -->
+  <section class="how-it-works section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Process</span>
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-description">
+          Get started in just 4 simple steps
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step slide-up">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Add Items & Customers</h3>
+            <p>Set up your product catalog and customer database in minutes</p>
+          </div>
+        </div>
+
+        <div class="step slide-up">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Create Invoice</h3>
+            <p>Select items, customer, and generate professional invoices instantly</p>
+          </div>
+        </div>
+
+        <div class="step slide-up">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Receive Payment</h3>
+            <p>Record cash, UPI, or credit payments with automatic tracking</p>
+          </div>
+        </div>
+
+        <div class="step slide-up">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Track Reports</h3>
+            <p>Monitor sales, stock, and profits with detailed reports</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       DATA SAFETY SECTION
+       ============================ -->
+  <section class="data-safety section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Security First</span>
+        <h2 class="section-title">Your Data is Safe & Secure</h2>
+        <p class="section-description">
+          We take your business data seriously. Built with security and privacy in mind.
+        </p>
+      </div>
+
+      <div class="safety-grid">
+        <div class="safety-item slide-up">
+          <i data-lucide="database" class="safety-item-icon"></i>
+          <div class="safety-item-content">
+            <h4>Offline Data Storage</h4>
+            <p>All your data is stored locally on your device. Complete control in your hands.</p>
+          </div>
+        </div>
+
+        <div class="safety-item slide-up">
+          <i data-lucide="lock" class="safety-item-icon"></i>
+          <div class="safety-item-content">
+            <h4>Secure Database</h4>
+            <p>Industry-standard encryption protects your business information from unauthorized access.</p>
+          </div>
+        </div>
+
+        <div class="safety-item slide-up">
+          <i data-lucide="shield-alert" class="safety-item-icon"></i>
+          <div class="safety-item-content">
+            <h4>No Data Selling</h4>
+            <p>We never share, sell, or use your data for advertising. Your privacy is guaranteed.</p>
+          </div>
+        </div>
+
+        <div class="safety-item slide-up">
+          <i data-lucide="hard-drive" class="safety-item-icon"></i>
+          <div class="safety-item-content">
+            <h4>Backup & Restore</h4>
+            <p>Easy backup options to keep your data safe. Restore anytime you need it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TARGET AUDIENCE SECTION
+       ============================ -->
+  <section class="target-audience section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Who Is This For?</span>
+        <h2 class="section-title">Perfect For Every Business Type</h2>
+        <p class="section-description">
+          Trusted by thousands of Indian business owners
+        </p>
+      </div>
+
+      <div class="audience-grid">
+        <div class="business-card slide-up">
+          <i data-lucide="shopping-bag" class="business-card-icon"></i>
+          <p class="business-card-name">Kirana Store</p>
+        </div>
+
+        <div class="business-card slide-up">
+          <i data-lucide="smartphone" class="business-card-icon"></i>
+          <p class="business-card-name">Mobile Shop</p>
+        </div>
+
+        <div class="business-card slide-up">
+          <i data-lucide="wrench" class="business-card-icon"></i>
+          <p class="business-card-name">Hardware Store</p>
+        </div>
+
+        <div class="business-card slide-up">
+          <i data-lucide="truck" class="business-card-icon"></i>
+          <p class="business-card-name">Wholesalers</p>
+        </div>
+
+        <div class="business-card slide-up">
+          <i data-lucide="store" class="business-card-icon"></i>
+          <p class="business-card-name">Retail Shop</p>
+        </div>
+
+        <div class="business-card slide-up">
+          <i data-lucide="briefcase" class="business-card-icon"></i>
+          <p class="business-card-name">Small Business Owners</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       SCREENSHOTS SECTION
+       ============================ -->
+  <section class="screenshots-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">App Preview</span>
+        <h2 class="section-title">See BizManager in Action</h2>
+      </div>
+
+      <div class="screenshots-grid">
+        <div class="screenshot-item slide-up">
+          <div class="screenshot-placeholder">
+            Dashboard Screenshot
+          </div>
+        </div>
+        <div class="screenshot-item slide-up">
+          <div class="screenshot-placeholder">
+            Invoice Screenshot
+          </div>
+        </div>
+        <div class="screenshot-item slide-up">
+          <div class="screenshot-placeholder">
+            Reports Screenshot
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FINAL CTA SECTION
+       ============================ -->
+  <section class="final-cta section">
+    <div class="container">
+      <h2>Start Managing Your Business Smartly Today</h2>
+      <p class="section-description" style="color: rgba(255, 255, 255, 0.95); margin-bottom: var(--space-8);">
+        Join thousands of happy business owners who trust BizManager
+      </p>
+      <div class="final-cta-buttons">
+        <a href="#download" class="btn btn-primary btn-lg"
+          style="background: white; color: var(--color-primary); border-color: white;">
+          <i data-lucide="download" class="icon"></i>
+          Download Now
+        </a>
+        <a href="https://wa.me/919876543210" class="btn btn-secondary btn-lg"
+          style="background: transparent; color: white; border-color: white;">
+          <i data-lucide="message-circle" class="icon"></i>
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>BizManager</h3>
+          <p>
+            Smart business management app designed for Indian small and medium businesses.
+            Manage your business effortlessly - offline and secure.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Pages</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <div class="footer-links">
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="mailto:support@bizmanager.com">support@bizmanager.com</a>
+            <a href="tel:+919876543210">+91 98765 43210</a>
+            <a href="https://wa.me/919876543210">WhatsApp Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 BizManager. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================
+       SCRIPTS
+       ============================ -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+  </script>
+  <script src="js/header.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
